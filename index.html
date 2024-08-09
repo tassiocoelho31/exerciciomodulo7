@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Java</title>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>EBAC - Módulo 7</h1>
+        <h2>Exercício Prático</h2>
+        <H3>Regras: Digite um número no campo A e depois no campo B um número maior que no A:</H3>
+    
+        <form id="myForm">
+            <label for="campoA"></label>
+            <input type="number" id="campoA" name="campoA" placeholder="CAMPO A" required>
+            <label for="campoB"></label>
+            <input type="number" id="campoB" name="campoB" placeholder="CAMPO B" required>
+            <button type="submit">Confirme</button>
+        </form>
+    
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
